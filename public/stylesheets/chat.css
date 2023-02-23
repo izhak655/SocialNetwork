@@ -1,0 +1,97 @@
+.boxCount{
+    width: 100%;
+    height: 91.94%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: rgb(243 236 236);
+}
+
+.boxChat{
+   
+    overflow-y: scroll;
+    flex-grow: 8;
+    border-bottom: 3px solid #23b9f5;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: flex-end;
+   background: linear-gradient(85deg, #eff3f3 0%, #217983 51%, #2cb5e8 75%);
+}
+.box_mess{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    max-width: 55%;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+
+.box_mess .messAndName{
+   
+   border-radius: 10%;
+   max-height: 100%;
+   min-width: 70%;
+   background-color: white;
+   margin-right: 3%;
+   direction: rtl;
+}
+.box_mess .messAndName .name{
+    font-size: 0.3cm;
+    background-color: aliceblue;
+    direction: rtl;
+    cursor:pointer;
+   
+}
+
+.box_mess .messAndName .message{
+    font-size: 0.4cm;
+    margin: 5%;
+}
+
+.box_mess .messAndName .date{
+   color: rgb(46, 44, 44);
+   font-size: 0.3cm;
+}
+
+.box_mess .imgFace{
+
+    height: 30px;
+    display: flex;
+    width: 35px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border-radius: 50%;
+    background-color: rgb(243 236 236);
+}
+
+.writing{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    flex-grow: 0.5;
+    background-color: white;
+}
+
+.inputChat{
+    
+    width: 100%;
+    height: 87%;
+    direction: rtl;
+    border: none;
+    outline: none;
+}
+
+.btn_mess{
+
+    height: 100%;
+    width: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.6cm;
+    
+}

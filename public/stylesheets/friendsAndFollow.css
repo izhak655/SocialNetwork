@@ -1,0 +1,50 @@
+/* class of the friends list */
+
+.lists {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 12%;
+    width: 85%;
+    background: #afb2f0;
+    justify-content: space-between;
+    padding-top: 25px;
+    margin: 10px auto;
+    border-radius: 20% 20% 0 0;
+    border-bottom: 2px solid #01f962;
+}
+
+
+.deleteFriend {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+.boxNameAndImgFriend {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    padding-right: 10px;
+    align-items: center;
+}
+
+.nameFriend {
+    font-size: 20px;
+    align-self: flex-end;
+    font-size: 20px;
+    font-family: monospace;
+    color: blue;
+    align-self: flex;
+
+}
+
+.imgFriend {
+    color: rgb(237, 250, 172);
+    font-size: 60px;
+    padding-bottom: 10%;
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
